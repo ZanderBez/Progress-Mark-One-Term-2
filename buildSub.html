@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
@@ -26,10 +30,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="buildSub.html">Build a Sub</a>
+              <a class="nav-link" href="buildSub.html">Build a Sub</a><span class="sr-only">(current)</span>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="checkOut.html">Check Out</a>
@@ -46,9 +50,12 @@
         <div class="row">
             <div class="col-6">
                 <div class="col-box">
+                  <div class="overlay">
                     <h1 class="display-4">SuperSubs</h1>
                       <p class="lead">SuperSubs makes it simple to design your ideal sub. Follow steps and select from fresh bread, meats, cheeses, and  garnishes. Each selection puts you closer to a sub that will satisfy your hunger. Create a sandwich that will tempt your taste buds and please your senses.</p>
-                </div>
+                    </div>
+                  </div>
+                    
             </div>
             <div class="col-6">
                 <div class="col-image"></div>
@@ -62,10 +69,9 @@
         <div class="left">
           <input type="text" class="form-control" placeholder="Name Your Sub" id="Name">
           <select class="form-control" id="size">
-            <option>Choose a Size</option>
-            <option>Hot Dog</option>
-            <option>Foot Long</option>
-            <option>Jumbo</option>
+            <option>Crispy or normal bread</option>
+            <option>Crispy</option>
+            <option>Normal</option>
           </select>
         </div>
   
@@ -111,16 +117,16 @@
             </div>
   
             <div class="top-check">
-              <input class="form-check-input" name="fillings" type="checkbox" value="steak" id="steak" data-cost="10">
+              <input class="form-check-input" name="fillings" type="checkbox" value="steak" id="steak" data-cost="17">
               <label class="form-check-label" for="steak">
                 Steak Strips
               </label>
             </div>
   
             <div class="top-check">
-              <input class="form-check-input" name="fillings" type="checkbox" value="feta" id="feta" data-cost="8">
+              <input class="form-check-input" name="fillings" type="checkbox" value="meatballs" id="meatballs" data-cost="20">
               <label class="form-check-label" for="feta">
-                Feta
+                Meatballs
               </label>
             </div>
   
@@ -182,9 +188,9 @@
         </div>
         <p>Copyright © 2023 SuperSubs. All rights reserved.</p>
         <div class="footer-right">
-          <a href="#" class="social-media-link"><img src="..." alt="Facebook"></a>
-          <a href="#" class="social-media-link"><img src="..." alt="Twitter"></a>
-          <a href="#" class="social-media-link"><img src="..." alt="Instagram"></a>
+          <a href="#" class="social-media-link"><img src="assets/1-03.png" alt="Facebook"></a>
+          <a href="#" class="social-media-link"><img src="assets/1-06.png" alt="Youtube"></a>
+          <a href="#" class="social-media-link"><img src="assets/1-04.png" alt="Instagram"></a>
         </div>
       </footer>
 

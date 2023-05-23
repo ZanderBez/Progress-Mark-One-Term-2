@@ -1,0 +1,30 @@
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-name {
+    font-weight: bold;
+  }
+  
+  .footer-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-media-link {
+    margin-left: 10px;
+  }
+  
+  .social-media-link img {
+    height: 30px;
+  }
+  
+  

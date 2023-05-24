@@ -127,7 +127,6 @@ footer p{
   text-align: center;
   color: aliceblue;
   font-family: 'Montserrat', sans-serif;
-  background-color: green;
 }
   
 .footer-left {
@@ -135,7 +134,6 @@ footer p{
   float: left;
   align-items: center;
   color: aliceblue;
-  background-color: red;
 }
   
 .logo-name {
@@ -146,7 +144,6 @@ footer p{
   width: 20%;
   float: right;
   align-items: center;
-  background-color: blue;
 }
   
 .social-media-link {

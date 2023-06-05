@@ -38,16 +38,15 @@ body h1{
   margin-bottom: 25px;
 }
 
-
 .left{
-  width: 60%;
+  width: 50%;
   float: left;
-  height: 130px;
+  height: 110px;
 }
 
 .right{
   height: 130px;
-  width: 40%;
+  width: 50%;
   float: left;
   text-align: center;
   padding-left: 5%;
@@ -56,11 +55,11 @@ body h1{
 }
 
 .orderCost{
-  background-color: #f7f7f7;
+  background-color: #cc6969;
   font-size: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
 .order-item{
@@ -89,11 +88,22 @@ body h1{
  margin-bottom: 20px;
 }
 
+.icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #000;
+}
+
+
+
 .fillings{
-  width: 66%;
-  margin-top: 20px;
+  width: 100%;
+  margin-top:50px;
   float: left;
   padding-left: 20px;
+  margin-bottom: 20px;
 }
 
 .fillings h3{
@@ -110,7 +120,8 @@ body h1{
 .output{
   width: 50%;
   margin:  0 auto;
-  margin-top: 50px;
+  text-align: center;
+  
 }
 
 

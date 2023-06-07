@@ -3,6 +3,10 @@
   color: rgb(0, 0, 0);
 }
 
+body{
+  background-color: blanchedalmond;
+}
+
 body p{
   font-family: 'Montserrat', sans-serif;
 }
@@ -37,12 +41,22 @@ body h1{
   height: 375px;
   margin-bottom: 25px;
 }
+.col-image2{
+  background-image: url("../assets/burger.png");
+  background-size: cover;
+  background-position: center;
+  width: 52%;
+  height: 115px;
+  margin-bottom: 25px;
+  margin: 0 auto;
+}
 
 .left{
   width: 50%;
   float: left;
   height: 110px;
 }
+
 
 .right{
   height: 130px;
@@ -85,7 +99,6 @@ body h1{
 
 .bread-options h3{
  margin-left:  -20px;
- margin-bottom: 20px;
 }
 
 .icon {
@@ -116,14 +129,53 @@ body h1{
   float: left;
 }
 
+.form-group{
+  margin-top: 20px;
+}
 
 .output{
-  width: 50%;
-  margin:  0 auto;
+  width: 100%;
+  
   text-align: center;
   
 }
+.output{
+  width: 50%;
+  height: 45px;
+  margin:  0 auto;
+  margin-top: 50px;
+  border-bottom: 2px solid #2b2b2b;
+}
+.card1{
+  width: 29%;
+  height: auto;
+  border-radius: 25px;
+  margin-top: 15px;
+  float: left;
+  margin: 2%;
+  border:solid red 5px;
+  background-color: #f7f7f7;
+  
+}
 
+.card-title{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.outHeader h3{
+  float: left;
+}
+
+.totalOrder{
+  float: left;
+  margin-left: 48%;
+}
+
+.totalOrder h3{
+  font-size: 40px;
+  margin-top: -10px;
+}
 
 footer {
   width: 100%;

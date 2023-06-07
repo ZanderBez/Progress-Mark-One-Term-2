@@ -13,7 +13,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 
     
 
@@ -70,7 +70,7 @@
       
 
       <form id="SubForm" style="padding-left: 10px;">
-        <h3>Custom Sub Maker</h3>
+        <h3>Build Your Amazing Sub Here</h3>
         <div class="left">
           <input type="text" class="form-control" placeholder="Name Your Sub" id="Name">
           <select class="form-control" id="size">
@@ -87,9 +87,7 @@
           <div class="row">
             <div class="col-6">
               <div class="bread-options">
-                <div class="icon"><i class="fa-thin fa-sandwich" style="color: #513a1f;"></i></div>
                 <h3>Bread Options</h3>
-      
                 <div class="base-check">
                   <input class="form-check-input" type="radio" name="baseRadio" id="rye" value="Rye" data-cost="15" checked>
                   <label class="form-check-label" for="rye">
@@ -110,6 +108,14 @@
                     Sourdough Breads(Gluten Free)
                   </label>
                 </div>
+              </div>
+              
+              <div class="form-group">
+                <h3>Crispy Or Normal Boring Bread</h3>
+                <input type="radio" id="crispy" name="radio" value="Crispy" data-cost="15">
+                <label for="crispy">Crispy Bread</label><br>
+                <input type="radio" id="normal" name="radio" value="Normal Bread" data-cost="5">
+                <label for="normal">Normal Bread</label><br>
               </div>
       
               <div class="fillings">
@@ -179,17 +185,32 @@
                 </div>
                 </div>  
               </form>
-              <button class="btn btn-success" style="float: left;" type="button" onclick="makeSub()" >Make My Sub</button> 
+              <button class="btn btn-success" type="button" onclick="makeSub()" >Make My Sub</button> 
             </div>
+            
             <div class="col-6">
               <div class="output">
-                <h3>Your Current Order:</h3>
-                <div class="order-item"></div>
+                <h3>Your Current Order:</h3><h3 id="orderTotal">Total: R0.00</h3>
+                <div class="totalOrder"></div>
+              </div>
+              <div id="orders">
+                <div class="card1">
+                  <div class="card-body">
+                      <div class="col-image2"></div>
+                      <h5 class="card-title"></h5>
+                      <p class="card-text"><strong>Crispy/Normal:</strong></p>
+                      <p class="card-text"><strong>Bread:</strong></p>
+                      <p class="card-text"><strong>Fillings:</strong></p>
+                      <p class="card-text"><strong>Cost:</strong></p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
     </div>
-      <footer>
+      
+    
+    <footer>
         <div class="footer-left">
           <div class="logo-name">SuperSubs</div>
         </div>

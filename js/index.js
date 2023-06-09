@@ -1,3 +1,31 @@
+displaySubs = () =>{
+    let monthSubs = document.getElementById('subsOut')
+
+    for(let i = 0; i < subsData.length; i ++){
+    
+            let name = subsData[i].name;
+            let bread = subsData[i].breadOptions;
+            let crispyNormal = subsData[i].crispyNormal;
+            let sauces = subsData[i].sauces;
+            let fillings = subsData[i].fillings;
+            let price = subsData[i].subPrice;
+
+            monthSubs.innerHTML += `
+            <div class="card2">
+            <div class="card-body">
+                <div class="col-image2"></div>
+                <h5 class="card-title">${name}</h5>
+                <p class="card-text"><strong>Crispy/Normal: </strong>${crispyNormal}</p>
+                <p class="card-text"><strong>Bread: </strong>${bread}</p>
+                <p class="card-text"><strong>Sauces: </strong>${sauces.join(", ")}</p>
+                <p class="card-text"><strong>Fillings: </strong>${fillings.join(", ")}</p>
+                <p class="card-text"><strong>Cost:</strong>R${price}.00</p>
+            </div>
+        </div>`;
+    }
+}
+
+
 let subOrder = [];
 
 makeSub = () =>{
@@ -120,10 +148,10 @@ displayOrder = () => {
             <div class="card-body">
                 <div class="col-image2"></div>
                 <h5 class="card-title">${name}</h5>
-                <p class="card-text"><strong>Crispy/Normal:</strong>${crispyNormal}</p>
-                <p class="card-text"><strong>Bread:</strong>${bread}</p>
-                <p class="card-text"><strong>Sauces:</strong>${sauces.join(", ")}</p>
-                <p class="card-text"><strong>Fillings:</strong>${fillings.join(", ")}</p>
+                <p class="card-text"><strong>Crispy/Normal: </strong>${crispyNormal}</p>
+                <p class="card-text"><strong>Bread: </strong>${bread}</p>
+                <p class="card-text"><strong>Sauces: </strong>${sauces.join(", ")}</p>
+                <p class="card-text"><strong>Fillings: </strong>${fillings.join(", ")}</p>
                 <p class="card-text"><strong>Cost:</strong>R${price}.00</p>
             </div>
         </div>`

@@ -1,6 +1,6 @@
 
 body{
-  background-color: blanchedalmond;
+  background-color: #ffe7de;
 }
 
 body p{
@@ -16,13 +16,16 @@ body h4{
 
 body h1{
   font-family: 'Lobster', cursive;
+  color: #fbf6f4;
 }
 .overlay{
   width: 100%;
   padding-top: 40px;
   padding-left: 15px;
   height: 375px;
-  background-color: rgb(255, 162, 0);
+  background-color: #ff9d00;
+  color: #f7f7f7;
+
 }
 
 .jumbotron{
@@ -33,15 +36,9 @@ body h1{
 
 .jumbotron p{
   font-weight: bold;
+  color: #f7f7f7;
 }
 
-.overlay2{
-  padding-top: 5px;
-  padding-left: 25px;
-  width: 100%;
-  height: 375px;
-  background-color: rgba(117, 102, 55, 0.9);
-}
 
 .nav-link{
   font-family: 'Montserrat', sans-serif;
@@ -68,6 +65,20 @@ body h1{
   margin: auto;
 }
 
+
+.topSubs{
+  margin:  0 auto;
+  margin-top: 50px;
+  height: 600px;
+}
+
+#subsOut h1{
+  text-align: center;
+  margin-top: 200px;
+  font-style: italic;
+  opacity: 0.8;
+}
+
 .left{
   width: 50%;
   float: left;
@@ -86,11 +97,12 @@ body h1{
 }
 
 .orderCost{
-  background-color: #cc6969;
+  background-color: #004f4e;
   font-size: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 50px;
+  color: #fdfdfd;
 }
 
 .order-item{
@@ -169,20 +181,57 @@ body h1{
 
 .btn-1:hover{
   cursor: pointer;
-  background-color: #cc6969;
+  background-color: #004f4e;
+  color: #fdfdfd;
 }
 
 .btn-2{
   width: 370px;
   height: 50px;
   border-radius: 25px;
-  background-color: #cc6969;
+  background-color: #004f4e;
   font-weight: bold;
+  color: #fdfdfd;
 }
 
 .btn-2:hover{
   cursor: pointer;
   background-color: #fdfdfd;
+  color: #2c2c2c;
+}
+
+.btn-3{
+  width: 230px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #004f4e;
+  font-weight: bold;
+  color: #fdfdfd;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.btn-3:hover{
+  cursor: pointer;
+  background-color: #fdfdfd;
+  color: #2c2c2c;
+}
+
+.btn-4{
+  width: 230px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #fdfdfd;
+  font-weight: bold;
+  color: #2c2c2c;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.btn-4:hover{
+  cursor: pointer;
+  background-color: #004f4e;
+  color: #fdfdfd;
 }
 
 .top-check{
@@ -202,7 +251,7 @@ body h1{
   height: 45px;
   margin:  0 auto;
   margin-top: 50px;
-  border-bottom: 2px solid #cc6969;
+  border-bottom: 2px solid #004f4e;
 }
 .card1{
   width: 33%;
@@ -211,15 +260,25 @@ body h1{
   margin-top: 15px;
   float: left;
   margin: 0.1%;
-  border:solid red 5px;
+  border:solid #ff5500 5px;
   background-color: #f7f7f7;
-  
+}
+
+.card2{
+  width: 33%;
+  height: auto;
+  border-radius: 25px;
+  margin-top: 15px;
+  float: left;
+  margin: 0.1%;
+  border:solid #ff5500 5px;
+  background-color: #f7f7f7;
+  color: #2c2c2c;
 }
 
 .card-title{
   text-align: center;
-  margin-top: 10px;
-}
+  margin-top: 10px;}
 
 .outHeader h3{
   float: left;

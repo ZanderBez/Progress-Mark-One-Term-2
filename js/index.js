@@ -13,8 +13,9 @@ displaySubs = () =>{
             monthSubs.innerHTML += `
             <div class="card2">
             <div class="card-body">
+                <h5 class="card-title" style="border-bottom: 2px solid #ff5500">${name}</h5>
                 <div class="col-image2"></div>
-                <h5 class="card-title">${name}</h5>
+                <h5 class="card-title">Love Your Masterpiece!</h5>
                 <p class="card-text"><strong>Crispy/Normal: </strong>${crispyNormal}</p>
                 <p class="card-text"><strong>Bread: </strong>${bread}</p>
                 <p class="card-text"><strong>Sauces: </strong>${sauces.join(", ")}</p>
@@ -146,8 +147,9 @@ displayOrder = () => {
         area.innerHTML +=`
         <div class="card1">
             <div class="card-body">
-                <div class="col-image2"></div>
-                <h5 class="card-title">${name}</h5>
+                <h5 class="card-title" style="border-bottom: 2px solid #ff5500">${name}</h5>
+                <div class="col-image3"></div>
+                <h5 class="card-title">Love Your Masterpiece!</h5>
                 <p class="card-text"><strong>Crispy/Normal: </strong>${crispyNormal}</p>
                 <p class="card-text"><strong>Bread: </strong>${bread}</p>
                 <p class="card-text"><strong>Sauces: </strong>${sauces.join(", ")}</p>

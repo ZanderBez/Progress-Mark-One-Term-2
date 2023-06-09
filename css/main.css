@@ -59,8 +59,19 @@ body h1{
   background-image: url("../assets/baguette.png");
   background-size:cover;
   background-position: center;
-  width: 53%;
-  height: 135px;
+  width: 54%;
+  height: 175px;
+  margin-bottom: 25px;
+  margin: auto;
+}
+
+.col-image3{
+  background-image: url("../assets/baguette.png");
+  background-size:cover;
+  background-position: center;
+  border-radius: 25%;
+  width: 40%;
+  height: 110px;
   margin-bottom: 25px;
   margin: auto;
 }
@@ -234,9 +245,18 @@ body h1{
   color: #fdfdfd;
 }
 
+.crispy-check{
+  font-family: 'Playfair Display', serif;
+}
+
+.bread-check{
+  font-family: 'Playfair Display', serif;
+}
+
 .top-check{
   width: 33%;
   float: left;
+  font-family: 'Playfair Display', serif;
 }
 
 
@@ -263,6 +283,7 @@ body h1{
   border:solid #ff5500 5px;
   background-color: #f7f7f7;
 }
+
 
 .card2{
   width: 33%;
@@ -306,7 +327,7 @@ footer {
 footer p{
   text-align: center;
   color: aliceblue;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lobster', cursive;
 }
   
 .footer-left {

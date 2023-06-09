@@ -127,5 +127,12 @@ displayOrder = () => {
                 <p class="card-text"><strong>Cost:</strong>R${price}.00</p>
             </div>
         </div>`
+
     }
+}
+
+checkout = () => {
+    let data = JSON.stringify(subOrder)
+    localStorage.setItem('order', data)
+    window.location.href = 'checkOut.html'
 }

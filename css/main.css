@@ -28,10 +28,19 @@ body h1{
 
 }
 
+.overlay2{
+  background-color: rgba(179, 119, 28, 0.6);
+  padding: 10%;
+}
+
 .jumbotron{
   background-image: url("../assets/side-view-sandwich-white-bread-with-grilled-meat-cutlet-cheese-lettuce-french-fries-mayo-ketchup-boardjpg.jpg");
+  margin: 0;
+  padding: 0;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .jumbotron p{
@@ -49,15 +58,18 @@ body h1{
 
 .col-image{
   background-image: url("../assets/andrew-valdivia-TuDxmwb0Kho-unsplash.jpg");
-  background-size: cover;
-  background-position: 0%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 375px;
   margin-bottom: 25px;
 }
+
 .col-image2{
   background-image: url("../assets/baguette.png");
-  background-size:cover;
+  background-size:contain, cover;
+  background-repeat: no-repeat;
   background-position: center;
   width: 54%;
   height: 175px;
@@ -67,7 +79,8 @@ body h1{
 
 .col-image3{
   background-image: url("../assets/baguette.png");
-  background-size:cover;
+  background-size:contain, cover;
+  background-repeat: no-repeat;
   background-position: center;
   border-radius: 25%;
   width: 40%;

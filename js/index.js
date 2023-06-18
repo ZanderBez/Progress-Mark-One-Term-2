@@ -28,6 +28,7 @@ displaySubs = () =>{
 
 
 let subOrder = [];
+let couponApplied = false;
 
 makeSub = () =>{
 
@@ -158,6 +159,24 @@ displayOrder = () => {
             </div>
         </div>`
 
+    }
+}
+
+applyCoupon = () => {
+    const couponCode = document.getElementById("promo").value;
+    
+    if (couponCode === "#1111" && !couponApplied) {
+        let totalArea = document.getElementById("totalOut");
+        let total = parseInt(totalArea.innerText.substring(1));
+        
+        let discount = Math.round(total * 0.2);
+        total -= discount;
+        
+        totalArea.innerText = "R" + total + ".00";
+        couponApplied = true;
+        alert("Congratu-lations! Your coupon has just done a 20% mic drop on your total! Woohoo!");
+    } else {
+        alert("Oopsie-daisy! It seems like your coupon code took a wrong turn and ended up in the land of expiration.");
     }
 }
 
